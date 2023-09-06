@@ -1,0 +1,34 @@
+.form-container {
+  width: 30%;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .add_prod_title {
+    font-size: 30px;
+  }
+  input {
+    display: block;
+    margin-top: 20px;
+    font-size: 15px;
+    padding: 10px;
+    width: 100%;
+  }
+  .add-prod-button {
+    padding: 10px;
+    font-size: 12px;
+    margin-top: 25px;
+    border: none;
+    background-color: #232f3e;
+    border: 2px solid #232f3e;
+
+    color: #f2f2f2;
+    font-size: 15px;
+    width: 30%;
+    transition: all 0.4s;
+  }
+  .add-prod-button:hover {
+    background-color: #f2f2f2;
+    color: #232f3e;
+  }
+}
